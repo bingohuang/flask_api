@@ -13,4 +13,4 @@ class StudentResource(Resource):
         return {'id': student_id, 'name': 'Bingo', 'gender': 'male'}
 
 
-api.add_resource(StudentResource, '/students/<int:student_id>')
+api.add_resource(StudentResource, '/students/<int:book_id>')
