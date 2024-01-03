@@ -1,5 +1,4 @@
-from routes import app
-
+from resources import app
 
 if __name__ == '__main__':
     app.run(debug=True, port=1989)
