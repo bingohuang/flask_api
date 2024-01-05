@@ -6,7 +6,7 @@ app = Flask(__name__)
 api = Api(app)
 
 app.config["SQLALCHEMY_DATABASE_URI"] = \
-    'mysql+pymysql://flask:flask-2024@rm-bp1c94s9654848q1mno.mysql.rds.aliyuncs.com/restful_db'
+    'mysql+pymysql://flask:flask-2024@8.136.89.212/restful_db'
 db = SQLAlchemy(app)
 
 
